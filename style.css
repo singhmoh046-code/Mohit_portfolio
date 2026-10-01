@@ -1,0 +1,109 @@
+/* Basic Page Setup */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333333;
+}
+
+/* Header Styling */
+.header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.header p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ddd;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #34495e;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #f39c12;
+}
+
+/* Section Styling */
+.section {
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #cccccc;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+}
+
+/* List Styling */
+ul {
+    line-height: 1.8;
+}
+
+/* Project Box Styling */
+.project-box {
+    background-color: #f9f9f9;
+    border: 1px solid #dddddd;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.project-box h3 {
+    margin-top: 0;
+    color: #2980b9;
+}
+
+/* Form Inputs Styling */
+input[type="text"], 
+input[type="email"], 
+textarea {
+    width: 250px;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #219150;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
